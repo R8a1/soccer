@@ -19,6 +19,7 @@ namespace App2
 {
     public abstract class GameMovingObj
     {
+        public static LVL lvl { get; set; }
         protected Canvas _scene;
         protected Image _image;
         protected double _x, _y, _image_Width, _image_Height;
